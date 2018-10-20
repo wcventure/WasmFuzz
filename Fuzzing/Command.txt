@@ -1,0 +1,11 @@
+AFL-Wasm-Fuzz:
+	afl-fuzz -i jsc_in -o jsc_out -t 1000 -m none -- ../WebKitBuild/Release/bin/jsc @@
+
+AFL-Wasm-Fuzz:
+	/mnt/d/Project/afl-wasm/build/bin/afl-fuzz -i wasm_in -o wasm_out -t 1000 -m none -- ./driving_wasm testWasm.js @@
+	
+AFL-Wasm-Fuzz:
+	/mnt/d/Project/afl-wasm/build/bin/afl-fuzz -i wasm_in -o wasm_out -t 1000 -m none -- ./driving_wasm testWasmM1.js @@
+	/mnt/d/Project/afl-wasm/build/bin/afl-fuzz -i wasm_in -o wasm_out -t 1000 -m none -- ./driving_wasm testWasmS1.js @@
+	/mnt/d/Project/afl-wasm/build/bin/afl-fuzz -i wasm_in -o wasm_out -t 1000 -m none -- ./driving_wasm testWasmS2.js @@
+	/mnt/d/Project/afl-wasm/build/bin/afl-fuzz -i wasm_in -o wasm_out -t 1000 -m none -- ./driving_wasm testWasmS3.js @@
