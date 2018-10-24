@@ -153,7 +153,7 @@ Fuzz testing is an automated black-box testing technique providing random data a
 
 ![alt](./WasmFuzz/docs/Memleak.png)
 
-### 4.2 MInvalid Address Read in Webkit
+### 4.2 Invalid Address Read in Webkit
 
 ![alt](./WasmFuzz/docs/Address.png)
 
