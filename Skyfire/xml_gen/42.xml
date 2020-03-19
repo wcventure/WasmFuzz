@@ -1,1 +1,0 @@
- <content>           <xsl:variable test="$month mod 2 = 1" />     </content>       
